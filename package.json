@@ -29,6 +29,7 @@
   ],
   "license": "MIT",
   "scripts": {
+    "test": "node test/pricing.test.js",
     "start": "node bin/cc-receipts.js"
   }
 }
