@@ -1,0 +1,34 @@
+{
+  "name": "claude-receipts",
+  "version": "0.1.0",
+  "description": "Get the receipts on what Claude Code actually ran — per-session model, token, cost, and silent-downgrade audit from your local logs.",
+  "type": "module",
+  "bin": {
+    "claude-receipts": "bin/cc-receipts.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "anthropic",
+    "cost",
+    "tokens",
+    "usage",
+    "audit",
+    "cli",
+    "haiku",
+    "downgrade"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/cc-receipts.js"
+  }
+}
